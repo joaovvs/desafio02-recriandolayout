@@ -1,0 +1,143 @@
+/* fonts
+    font-family: 'JetBrains Mono', monospace;
+    font-family: 'Open Sans', sans-serif;
+*/
+
+:root{
+    --bg-color: #2F2E41;
+    --highlight-color: #00BFA6;
+    --text-color-default: #C2C2C2;
+    --text-color-hightlight: #FFF;
+}
+
+body{
+    margin: 0;
+    background: var(--bg-color);
+    padding: 71px 89px 23px 99px;
+
+    min-width: 1280px;
+}
+
+
+header{
+        margin-bottom: 101px;
+}
+
+nav{
+    font-family: JetBrains Mono;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-color-hightlight);
+}
+
+ul{
+    list-style: none;
+
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+
+    gap: 64px;  
+
+}
+
+header ul li a, footer a{
+    text-decoration: none;
+    color: var(--text-color-hightlight);
+}
+
+a:hover{
+    color: var(--text-color-default);
+}
+
+
+main { 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+
+main img{
+    width: 401px;
+    height: 283px;
+}
+
+main h1{
+    font-family: JetBrains Mono;
+    color: var(--text-color-hightlight);
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 700;
+
+    width: 609px;
+
+    margin-top: 0;
+    margin-bottom: 59px;
+}
+
+main h1 span{
+    color: var(--highlight-color);
+}
+
+main p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+
+    width: 604px;
+
+    color: var(--text-color-default);
+
+    margin: 0;
+}
+
+main p span{
+    color: var(--highlight-color);
+    font-weight: 700;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+
+    margin-top: 157px;
+    margin-bottom: 0;
+
+}
+
+#line{ 
+    width: 568px;
+    border: 1px solid var(--highlight-color);
+}
+
+footer p{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+
+    color: var(--text-color-hightlight);
+
+    margin-top: 27px;
+}
+
+
+#padlock-decoration{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 20px 20px;
+
+    z-index: 1;
+}
