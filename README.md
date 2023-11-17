@@ -1,30 +1,37 @@
-﻿# desafio02-recriandolayout
-
-<p>Desafio para criar o layout abaixo utilizando html e css</p>
-
-<img src="./images/print projeto.png">
-
 
 # Desafio avançado - Recriando layout
 
-# 💻 Sobre o desafio
+Projeto para resolução de desafio proposto no módulo "Stage-02" do curso Explorer da rocketseat.
 
-Nesse desafio, você deverá recriar uma aplicação, a partir de um layout, para treinar o que aprendeu até agora no **Stage 02**.
+## Sobre o desafio
 
-## Figma da aplicação
-
-O figma da aplicação está disponível no [**link**](https://www.figma.com/file/EdKjPWjC8ZlbnH4XzTObv2/Explorer/duplicate)
+Nesse desafio, você deverá recriar uma aplicação, a partir de um layout, para treinar o que aprendeu até agora no Stage 02.
 
 
-<aside>
-⚠️ **Alerta**: Caso ao clicar no link você se depare com o erro que `WebGL` não está ativado no seu navegador, [siga esses passos](https://help.figma.com/hc/en-us/articles/360039828614#Enable_WebGL).
 
-</aside>
 
-## Quais arquivos devo criar na minha aplicação?
+## Preview 
 
-Além de criar a pasta **images**, que irá conter as imagens da sua aplicação, seu projeto deverá ter os seguintes arquivos:
+![Preview](/images/print%20projeto.png)
 
-- *index.html*
-- *style.css*
+
+
+
+
+## Aprendizados
+
+- Estrutura de projeto HTML;
+- Uso de tags HTML mais comuns;
+- Conceitos iniciais de CSS;
+- Posicionamento e alinhamento de elementos na tela;
+- Aplicação fontes customizadas;
+- Espaçamentos.
+- Semântica HTML
+- Acessibilidade
+
+
+## Stack utilizada
+
+**Front-end:** HTML e CSS
+
 
